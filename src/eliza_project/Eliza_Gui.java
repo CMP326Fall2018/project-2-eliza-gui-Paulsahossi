@@ -29,8 +29,6 @@ public class Eliza_Gui extends JFrame implements ActionListener{
 	private JLabel jLabel2;
 	private Font font = new Font("SansCherif",12,12);
 	
-	
-	
 	private static final int GUI_WIDTH = 600;	
 	private static final int GUI_HEIGHT = 600;
 	private static final int NUM_COLS_TEXT_AREA = GUI_WIDTH/12;
@@ -120,7 +118,6 @@ public class Eliza_Gui extends JFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 	String btnFace = e.getActionCommand();
-			//		e.getSource();
 	switch(btnFace){
 		case ACTION_COMMAND_Start_Session:
 			QuestionsCounter++;
